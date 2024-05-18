@@ -397,6 +397,18 @@ img{
     border-radius: 1rem 1rem 1rem 1rem;
 }
 
+.click__button {
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: 0.5rem 0.5rem;
+  /* padding: 1rem 1.5rem; */
+  border-radius: 0.5rem;
+  font-weight: var(--font-semi-bold);
+  transition: 0.3s;
+  text-align: center;
+}
+
 /*========== SEND GIFT ==========*/
 .send{
   background-color: var(--first-color-send);
